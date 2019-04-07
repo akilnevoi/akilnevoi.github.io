@@ -1,0 +1,28 @@
+.img-box{
+	column-count: 4;
+	column-gap: 0;
+}
+.image{
+	max-width: 100%;
+	display:block;
+	filter: brightness(50%);
+	transition: (2)
+}
+.image:hover{
+	filter: brightness(101%);
+}
+@media screen and (max-width: 1000px){
+   .img-box{
+   	column-count:3;
+   }
+ }
+@media screen and (max-width: 800px){
+   .img-box{
+   	column-count: 2;
+   }
+ }
+ @media screen and (max-width: 600px){
+   .img-box{
+   	column-count: 1;
+   }
+ }
